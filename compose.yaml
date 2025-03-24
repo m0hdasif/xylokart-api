@@ -1,0 +1,6 @@
+﻿services:
+  xylokart:
+    image: xylokart
+    build:
+      context: .
+      dockerfile: XyloKart/Dockerfile
